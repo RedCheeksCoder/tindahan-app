@@ -23,10 +23,10 @@ export const initialCustomer = [
 ];
 
 export const initialProductPrices = [
-  { id: 1, item: "Argentina cornbeef", size: "500g", price: 85 },
-  { id: 2, item: "Purefoods gisado", size: "500g", price: 102 },
-  { id: 3, item: "SurfBar", size: "500g", price: 45 },
-  { id: 4, item: "Ariel", size: "250g", price: 18 },
+  { id: 1, item: "Argentina cornbeef", size: "100g", price: 85, stock: 15 },
+  { id: 2, item: "Purefoods gisado", size: "400g", price: 102, stock: 22 },
+  { id: 3, item: "SurfBar", size: "500g", price: 45, stock: 30 },
+  { id: 4, item: "Ariel", size: "250g", price: 18, stock: 26 },
 ];
 
 function App() {
