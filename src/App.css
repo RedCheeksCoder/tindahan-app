@@ -7,6 +7,9 @@
 header {
   letter-spacing: 2px;
 }
+img {
+  border-radius: 50%;
+}
 
 .main-container {
   display: grid;
@@ -44,22 +47,28 @@ header {
   margin-bottom: 8px;
 }
 
-.main .customer button,
+/* .main .customer button,
 .main .product button,
 .total button,
+.sort-prices button,
 .main .item button,
 .customer-form button,
-.update-balance-form button {
+.update-balance-form button,
+.new-item-form  */
+button {
   border-radius: 5px;
   background-color: bisque;
   color: rgb(66, 43, 43);
 }
-.main .customer button:hover,
+/* .main .customer button:hover,
 .main .product button:hover,
 .total button:hover,
+.sort-prices button:hover,
 .main .item button:hover,
 .customer-form button:hover,
-.update-balance-form button:hover {
+.update-balance-form button:hover,
+.new-item-form  */
+button:hover {
   background-color: beige;
 }
 .total,
@@ -100,14 +109,16 @@ header {
 }
 
 .customer-form,
-.update-balance-form {
+.update-balance-form,
+.new-item-form {
   display: flex;
   flex-direction: column;
   border: 1px solid burlywood;
   padding: 1rem;
 }
 .customer-form input,
-.update-balance-form input {
+.update-balance-form input,
+.new-item-form input {
   border: 1px solid blanchedalmond;
   margin-bottom: 5px;
 }
